@@ -18,8 +18,6 @@
 		326CC5F227E49BA9003C938C /* ArticleCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CC5F127E49BA9003C938C /* ArticleCellModel.swift */; };
 		326CC5F427E49DA0003C938C /* ArticleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CC5F327E49DA0003C938C /* ArticleRequest.swift */; };
 		326CC5F627E4B44E003C938C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CC5F527E4B44D003C938C /* ImageManager.swift */; };
-		326CC5F827E4BB38003C938C /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CC5F727E4BB38003C938C /* ArticleDetailsViewController.swift */; };
-		326CC5FA27E4BBAC003C938C /* ArticleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CC5F927E4BBAC003C938C /* ArticleDetailsViewModel.swift */; };
 		32EBE27527E351EE00D812FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE27427E351EE00D812FF /* AppDelegate.swift */; };
 		32EBE27727E351EE00D812FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE27627E351EE00D812FF /* SceneDelegate.swift */; };
 		32EBE27927E351EE00D812FF /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE27827E351EE00D812FF /* ArticleListViewController.swift */; };
@@ -61,8 +59,6 @@
 		326CC5F127E49BA9003C938C /* ArticleCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCellModel.swift; sourceTree = "<group>"; };
 		326CC5F327E49DA0003C938C /* ArticleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequest.swift; sourceTree = "<group>"; };
 		326CC5F527E4B44D003C938C /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
-		326CC5F727E4BB38003C938C /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
-		326CC5F927E4BBAC003C938C /* ArticleDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewModel.swift; sourceTree = "<group>"; };
 		32EBE27127E351EE00D812FF /* PopularArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EBE27427E351EE00D812FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EBE27627E351EE00D812FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,15 +110,6 @@
 			path = ArticleList;
 			sourceTree = "<group>";
 		};
-		326CC5FC27E4BBCD003C938C /* ArticleDetails */ = {
-			isa = PBXGroup;
-			children = (
-				326CC5F927E4BBAC003C938C /* ArticleDetailsViewModel.swift */,
-				326CC5F727E4BB38003C938C /* ArticleDetailsViewController.swift */,
-			);
-			path = ArticleDetails;
-			sourceTree = "<group>";
-		};
 		32EBE26827E351EE00D812FF = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +133,6 @@
 		32EBE27327E351EE00D812FF /* PopularArticles */ = {
 			isa = PBXGroup;
 			children = (
-				326CC5FC27E4BBCD003C938C /* ArticleDetails */,
 				326CC5FB27E4BBC0003C938C /* ArticleList */,
 				32EBE2A527E3523E00D812FF /* APIService */,
 				32EBE2A427E3523600D812FF /* DataSource */,
@@ -335,10 +321,8 @@
 				326CC5F427E49DA0003C938C /* ArticleRequest.swift in Sources */,
 				32EBE27927E351EE00D812FF /* ArticleListViewController.swift in Sources */,
 				326CC5EC27E48C3A003C938C /* ArticleListViewModel.swift in Sources */,
-				326CC5F827E4BB38003C938C /* ArticleDetailsViewController.swift in Sources */,
 				326CC5F627E4B44E003C938C /* ImageManager.swift in Sources */,
 				326CC5E627E487F1003C938C /* JSONDecodingHandler.swift in Sources */,
-				326CC5FA27E4BBAC003C938C /* ArticleDetailsViewModel.swift in Sources */,
 				32EBE27527E351EE00D812FF /* AppDelegate.swift in Sources */,
 				326CC5F227E49BA9003C938C /* ArticleCellModel.swift in Sources */,
 				326CC5DC27E48740003C938C /* NetworkManager.swift in Sources */,
